@@ -1,0 +1,19 @@
+{
+  "author": "Martynas Barzda <martynas@barzda.pro>",
+  "description": "Personal website",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "express": "^4.17.1",
+    "postcss": "^8.3.6",
+    "rollup": "^2.56.3",
+    "tailwindcss": "^2.2.9"
+  },
+  "name": "@mbarzda/barzda.pro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbarzda/barzda.pro.git"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

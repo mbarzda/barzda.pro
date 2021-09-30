@@ -2,17 +2,27 @@
   "author": "Martynas Barzda <martynas@barzda.pro>",
   "description": "Personal website",
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
-    "express": "^4.17.1",
-    "postcss": "^8.3.6",
-    "rollup": "^2.56.3",
-    "tailwindcss": "^2.2.9"
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@rollup/plugin-html": "^0.2.3",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "autoprefixer": "^10.3.6",
+    "cssnano": "^5.0.8",
+    "nollup": "^0.18.5",
+    "postcss": "^8.3.8",
+    "purecss": "^2.0.6",
+    "rollup": "^2.57.0",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "name": "@mbarzda/barzda.pro",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mbarzda/barzda.pro.git"
+  },
+  "scripts": {
+    "build": "rollup -c --environment production",
+    "start": "nollup -c"
   },
   "type": "module",
   "version": "1.0.0"

@@ -1,5 +1,5 @@
 {
-    "contentBase": "./public",
+    "contentBase": "./docs",
     "host": "0.0.0.0",
     "hot": true,
     "port": 3000

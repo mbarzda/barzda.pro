@@ -52,7 +52,7 @@ function getRollupPlugins() {
 export default defineConfig({
     input: 'src/index.js',
     output: {
-        dir: './public',
+        dir: './docs',
     },
     plugins: getRollupPlugins(),
 });

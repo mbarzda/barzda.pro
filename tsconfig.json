@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext"
+  },
+  "paths": {
+    "$/*": ["src/*"]
+  }
+}

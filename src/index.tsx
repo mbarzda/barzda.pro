@@ -16,7 +16,7 @@ const Styles = createGlobalStyles`
 
   body {
     margin:0;
-    padding: 0;
+    padding: 0 16px;
   }
 
   a {

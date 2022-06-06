@@ -29,7 +29,7 @@ const e={};function t(t){e.context=t}const n=(e,t)=>e===t,r=Symbol("solid-proxy"
 
   body {
     margin:0;
-    padding: 0;
+    padding: 0 16px;
   }
 
   a {

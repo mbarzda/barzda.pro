@@ -3,7 +3,7 @@ import { css } from 'solid-styled-components';
 export const Description = () => (
   <p
     class={css`
-      color: #001219;
+      color: var(--bp-text-color);
       font-size: 1.25rem;
     `}
   >

@@ -27,7 +27,7 @@ export const Contacts = () => (
     </Line>
     <Line>
       LinkedIn:{' '}
-      <a href="//www.linkedin.com/in/mbarzda" target="_blank">
+      <a href="//www.linkedin.com/in/mbarzda" target="_blank" rel="noreferrer">
         /in/mbarzda
       </a>
     </Line>

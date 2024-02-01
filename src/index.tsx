@@ -56,5 +56,5 @@ render(
       </main>
     </>
   ),
-  document.body
+  document.body,
 );

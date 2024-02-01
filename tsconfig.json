@@ -5,7 +5,8 @@
     "jsxImportSource": "solid-js",
     "module": "esnext",
     "moduleResolution": "node",
-    "target": "esnext"
+    "target": "esnext",
+    "verbatimModuleSyntax": true
   },
   "paths": {
     "$/*": ["src/*"]

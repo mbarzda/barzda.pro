@@ -1,9 +1,14 @@
 {
-	"editor.codeActionsOnSave": {
-		"quickfix.biome": "explicit",
-		"source.organizeImports.biome": "explicit"
-	},
-	"editor.defaultFormatter": "biomejs.biome",
-	"editor.formatOnSave": true,
-	"typescript.tsdk": "node_modules/typescript/lib"
+  "cssvar.extensions": ["css", "postcss"],
+  "cssvar.files": ["./node_modules/open-props/open-props.min.css"],
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }

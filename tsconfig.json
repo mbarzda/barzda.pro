@@ -1,14 +1,10 @@
 {
+  "extends": "astro/tsconfigs/base",
   "compilerOptions": {
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "#/*": ["src/*"]
+    },
     "verbatimModuleSyntax": true
-  },
-  "paths": {
-    "$/*": ["src/*"]
   }
 }

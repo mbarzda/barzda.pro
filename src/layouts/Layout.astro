@@ -1,4 +1,6 @@
 ---
+import Navigation from '#/components/Navigation.astro';
+
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 type Props = {
@@ -34,9 +36,24 @@ const { description, title } = Astro.props;
       align-items: center;
       justify-content: flex-start;
     }
+
+    a {
+      color: var(--green-6);
+
+      &:hover {
+        color: var(--cyan-3);
+        text-decoration: none;
+        transition: color .4s var(--ease-3);
+      }
+
+      &:focus-visible {
+        outline-color: var(--yellow-5);
+      }
+    }
   </style>
 </head>
 <body>
+  <Navigation/>
   <slot/>
 </body>
 </html>

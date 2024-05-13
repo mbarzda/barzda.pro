@@ -1,0 +1,37 @@
+---
+const pages = [
+  { path: '/', title: 'About' },
+  { path: '/contacts/', title: 'Contacts' },
+];
+---
+<style>
+  nav {
+    display: flex;
+    margin-top: var(--size-8);
+    border-radius: var(--radius-2);
+    overflow: hidden;
+    box-shadow: var(--shadow-2);
+  }
+
+  a {
+    padding: var(--size-2) var(--size-4);
+    background-color: white;
+    color: var(--green-6);
+
+    &:focus-visible {
+      box-shadow: 0 0 2px 2px var(--yellow-5) inset;
+      outline-color: transparent;
+    }
+  }
+
+  .active {
+    color: var(--cyan-3);
+    text-decoration: underline;
+  }
+</style>
+
+<nav>
+  {pages.map(({path, title}) => {
+    return <a href={path} class:list={[{'active': Astro.url.pathname === path}]}>{title}</a>
+  })}
+</nav>

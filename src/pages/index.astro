@@ -2,15 +2,21 @@
 import Card from '#/components/Card.astro';
 import Layout from '#/layouts/Layout.astro';
 ---
+<style>
+  h1 {
+    font-size: var(--font-size-fluid-2);
+  }
 
+  h2 {
+    font-size: var(--font-size-fluid-1);
+  }
+</style>
 <Layout title="Martynas Barzda / Tech Lead & Web Engineer" description="Tech Lead & Web Engineer">
-  <Card style="margin-top: var(--size-8)">
-    <h1 style="font-size: var(--font-size-fluid-2);">Martynas Barzda</h1>
-    <h2 style="font-size: var(--font-size-fluid-1);">Tech Lead & Web Engineer</h2>
+  <Card>
+    <h1>Martynas Barzda</h1>
+    <h2>Tech Lead & Web Engineer</h2>
 
     <p>I am Martynas Barzda, Tech Lead & Web Engineer with long time experience in B2C area.</p>
     <p>I work and live in Kaunas, Lithuania.</p>
   </Card>
-
-
 </Layout>

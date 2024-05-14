@@ -3,9 +3,10 @@
     box-shadow: var(--shadow-2);
     background: white;
     padding: var(--size-4);
+    margin: var(--size-8) var(--size-4);
   }
 </style>
 
-<div style={Astro.props.style}>
+<div class={Astro.props.class} style={Astro.props.style}>
   <slot/>
 </div>
